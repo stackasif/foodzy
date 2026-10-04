@@ -7,6 +7,7 @@ import { FaShoppingCart, FaSearch } from "react-icons/fa";
 import { dataContext } from "../context/UserContext";
 import foodItems from "../items/foodItems";
 import CartSection from "./CartSection";
+import { useSelector } from "react-redux";
 
 const navItems = [
   "Home",
@@ -33,6 +34,8 @@ export default function Navbar() {
     setActiveItem(item);
     setIsMenuOpen(false);
   };
+  let items=useSelector(state=>state.cart)
+  // console.log(items)
 
   return (
     <>
@@ -155,7 +158,7 @@ export default function Navbar() {
                   font-semibold
                 "
               >
-                0
+                {items.length}
               </span>
             </button>
 

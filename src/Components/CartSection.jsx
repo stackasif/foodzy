@@ -1,24 +1,23 @@
 import React, { useContext } from 'react'
 import { RxCross2 } from "react-icons/rx"
 import { dataContext } from '../context/UserContext'
-import CartCard from './CardCart'
+import CardCart from './CardCart'
+import Billing from './Billing'
+import { useSelector } from 'react-redux'
 
 function CartSection() {
 
   const { showCart, setShowCart } = useContext(dataContext)
+  let item=useSelector(state=>state.cart)
 
   return (
     <div
-      className={`fixed inset-0 z-50 transition-all  ${
-        showCart
-          ? "opacity-100 pointer-events-auto"
-          : "opacity-0 pointer-events-none"
-      }`}
+      className={`fixed inset-0 z-50 transition-all  ${showCart? "opacity-100 pointer-events-auto": "opacity-0 pointer-events-none"}`}
       onClick={() => setShowCart(false)}
     >
 
      
-      <div className={`w-full md:w-[40vw] md:w-[35vw] h-full bg-[#fffaf4]/75 backdrop-blur-2xl border border-white/80 fixed top-0 right-0
+      <div className={`w-full md:w-[40vw] md:w-[35vw] overflow-auto h-full bg-[#fffaf4]/75 backdrop-blur-2xl border border-white/80 fixed top-0 right-0
         transition-transform duration-500 ease-in-out p-5
         ${showCart ? "translate-x-0" : "translate-x-full"}`}
         onClick={(e) => e.stopPropagation()}>
@@ -35,7 +34,16 @@ function CartSection() {
           />
 
         </div>
-        <CartCard/>
+
+
+        {/* CardCart section  */}
+        {item.length >0?<CardCart/>:
+        <div>
+          ADDitem
+        </div>
+        }
+        
+        
       </div>
       
 

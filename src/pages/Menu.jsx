@@ -3,6 +3,9 @@ import { FaStar } from "react-icons/fa";
 import { FaLeaf } from "react-icons/fa6";
 import { GiChickenOven } from "react-icons/gi";
 import { MdCurrencyRupee } from "react-icons/md";
+import { useDispatch } from 'react-redux';
+import { Additems } from '../redux/cartSlice';
+import { toast } from 'react-toastify';
 
 
 
@@ -14,6 +17,8 @@ category,
 type,
 description,
 price}) => {
+    let dispatch=useDispatch()
+
   return (
    
         <div className='w-[300px] h-[400px] bg-orange-100 p-3 rounded-lg cursor-default' >
@@ -46,7 +51,11 @@ price}) => {
                     </span>
                 </p>
             </div>
-            <div className='w-full  bg-red-600 font-semibold text-white shadow-lg hover:bg-red-700 rounded-lg cursor-pointer py-1.5 my-2'>
+            <div className='w-full  bg-red-600 font-semibold text-white shadow-lg hover:bg-red-700 rounded-lg cursor-pointer py-1.5 my-2'
+            onClick={()=>{dispatch(Additems({id,name,image,price,qty:1}));
+          toast.success("Item added")
+        }}
+            >
                 <h4 className='text-center'>
                     Add to dish
                 </h4>
