@@ -28,7 +28,7 @@ const chefs = [
 export default function ChefSection() {
   return (
     <section className="bg-white px-4 py-14 sm:px-6 lg:px-8 scroll-mt-[100px]" id="chefs">
-      <div className="mx-auto max-w-6xl" data-aos="fade-up">
+      <div className="mx-auto max-w-[1280px]" data-aos="fade-up">
 
         {/* Heading */}
         <div className="mb-10 text-center">

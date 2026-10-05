@@ -14,7 +14,7 @@ import { IoMdMail,IoIosSend  } from "react-icons/io";
 export default function ContactSection() {
   return (
     <section className="bg-white px-4 py-14 sm:px-6 lg:px-8 scroll-mt-24" id="contact">
-      <div className="mx-auto max-w-5xl">
+      <div className="mx-auto max-w-[1280px]">
 
         {/* Heading */}
         <div className="text-center" data-aos="fade-up">

@@ -17,7 +17,7 @@ const hours = [
 export default function OpenTime() {
   return (
     <section className="bg-[#155d45] px-4 py-14 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-[1280px]">
 
         {/* Heading */}
         <div className="mb-10 text-center" data-aos="fade-right">

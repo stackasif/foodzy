@@ -1,5 +1,4 @@
 import { useContext, useEffect, useState } from "react";
-
 import { IoCloseSharp } from "react-icons/io5";
 import { LuMenu } from "react-icons/lu";
 import { MdDinnerDining } from "react-icons/md";
@@ -48,6 +47,7 @@ export default function Navbar() {
             max-w-[1280px]
             items-center justify-between
             gap-3
+            
             px-3 md:px-5 lg:px-8
           "
         >
