@@ -11,7 +11,7 @@ function Category2() {
   
   return (
     <div>
-      <div className="flex flex-col justify-center items-center text-center py-8 scroll-mt-[100px]"  id='menu'>
+      <div className="flex flex-col justify-center items-center text-center py-5 md:py-8 scroll-mt-[100px]"  id='menu' data-aos="fade-up">
         <p className="text-[#e8281a] text-[20px]">
           What we offer
         </p>
@@ -23,9 +23,9 @@ function Category2() {
         <div className="w-16 h-1 bg-[#ed261c] rounded-full mt-5 mb-5" />
       </div>
 
-      <div className="flex flex-wrap items-center justify-center gap-4">
+      <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4" data-aos="fade-right">
         {category.map((item) => (
-          <div
+          <div 
             key={item.id}
             onClick={() => { setActiveCategory(item.id); filter(item.name); }}
            
@@ -37,7 +37,7 @@ function Category2() {
                   : 'bg-white text-black border-red-300 hover:border-red-300'
               }`}
           >
-            <h1 className="font-semibold text-base">
+            <h1 className="font-semibold text-[14px] md:text-base">
               {item.name}
             </h1>
           </div>

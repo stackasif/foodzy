@@ -22,7 +22,7 @@ function CardCart() {
                     <div className='w-[60%] h-full  overflow-hidden rounded-lg'>
                         <img src={item.image} alt="" className='object-cover'/>
                     </div>
-                    <div className='w-[40%] h-full flex flex-col justify-center  items-center font-semibold gap-2'>
+                    <div className='w-[40%] text-[13px] md:text-[18px] text-center h-full flex flex-col justify-center  items-center font-medium gap-2'>
                         <p>{item.name}</p>
 
                         <div className="w-[70%] h-[30px] flex rounded-md overflow-hidden border border-red-200 shadow-lg">

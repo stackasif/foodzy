@@ -41,9 +41,9 @@ export default function Offer() {
 
   return (
 
-    <section className="w-full bg-[#260000]">
+    <section className="w-full bg-[#260000]" >
   
-  <div className="mx-auto max-w-[1280px] px-5 py-10">
+  <div className="mx-auto max-w-[1280px] px-5 py-10" >
     
     <section className="relative min-h-screen overflow-hidden px-5 py-8 sm:px-8 lg:px-12">
       {/* Background diagonal pattern */}
@@ -65,7 +65,7 @@ export default function Offer() {
         <div className="grid w-full items-center gap-12 lg:grid-cols-2 lg:gap-16">
           
           {/* LEFT CONTENT */}
-          <div className="order-2 lg:order-1">
+          <div className="order-2 lg:order-1" data-aos="fade-right">
             
             {/* Limited offer badge */}
             <div className="mb-7 inline-flex items-center gap-2 rounded-lg bg-[#ffac18] px-4 py-2 text-xs font-bold uppercase tracking-[2px] text-[#260000] sm:text-sm">
@@ -115,16 +115,16 @@ export default function Offer() {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="order-1 flex justify-center lg:order-2 lg:justify-end">
+          <div className="order-1 flex justify-center lg:order-2 lg:justify-end" data-aos="fade-left">
             <div className="relative w-full max-w-[540px]">
               
               {/* Price bubble */}
-              <div className="absolute -left-2 top-6 z-10 flex h-[100px] w-[100px] -translate-x-1/4 items-center justify-center rounded-full bg-[#f02b20] text-center text-white shadow-xl sm:-left-5 sm:h-[110px] sm:w-[110px]">
+              <div className="absolute  md:-left-2 right-1 md:top-6 z-10 flex h-[60px] w-[60px] md:h-[100px] md:w-[100px] -translate-x-1/4 items-center justify-center rounded-full bg-[#f02b20] text-center text-white shadow-xl sm:-left-5 sm:h-[110px] sm:w-[110px]">
                 <div>
-                  <div className="text-xs line-through opacity-80">
+                  <div className="md:text-xs text-[10px] line-through opacity-80">
                     $24.99
                   </div>
-                  <div className="text-2xl font-bold">
+                  <div className="md:text-2xl text-[14px] font-bold">
                     $17.49
                   </div>
                 </div>

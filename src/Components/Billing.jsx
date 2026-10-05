@@ -21,7 +21,7 @@ function Billing() {
     
 
   return (
-    <div className='w-full h-[100px] md:h-[250px] bg-white shadow-lg p-2.5 rounded-lg my-2 items-center'>
+    <div className='w-full h-[100px] h-auto md:h-[250px] bg-white shadow-lg p-2.5 rounded-lg my-2 items-center'>
         <h1 className='w-full font-bold text-[16px] py-2 border-b border-zinc-300'>
             Order Summary
         </h1>

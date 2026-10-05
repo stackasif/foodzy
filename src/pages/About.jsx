@@ -10,10 +10,10 @@ function About() {
     <section className="w-full py-16 sm:py-20 lg:py-24 bg-white scroll-mt-[60px]" id="about">
       <div className="max-w-[1280px] mx-auto px-5 sm:px-8 lg:px-6">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-14 xl:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-14 xl:gap-16 items-center"  >
 
           {/* ================= IMAGE SECTION ================= */}
-          <div className="relative w-full max-w-[600px] mx-auto lg:mx-0 shadow-2xl">
+          <div className="relative w-full max-w-[600px] mx-auto lg:mx-0 shadow-2xl" data-aos="zoom-in">
 
             {/* Main Image */}
             <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden">
@@ -76,7 +76,7 @@ function About() {
 
 
           {/* ================= CONTENT SECTION ================= */}
-          <div className="pt-8 lg:pt-0">
+          <div className="pt-8 lg:pt-0" data-aos="zoom-in">
 
             <p className="
               text-[#ed261c]

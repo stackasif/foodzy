@@ -5,6 +5,13 @@ import App from './App.jsx'
 import UserContext from './context/UserContext.jsx'
 import { Provider } from 'react-redux'
 import { store } from './redux/store.js'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+AOS.init({
+  duration: 800,
+  once: false,
+  // offset:100
+})
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>

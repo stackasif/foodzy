@@ -21,7 +21,7 @@ price}) => {
 
   return (
    
-        <div className='w-[300px] h-[400px] bg-orange-100 p-3 rounded-lg cursor-default' >
+        <div className='w-[300px] h-[400px] bg-orange-100 p-3 rounded-lg cursor-default' data-aos="fade-left">
             
             <div className='w-full h-[50%] overflow-hidden rounded-lg'>
                  {<img src={image} alt="" className='object-cover' />}

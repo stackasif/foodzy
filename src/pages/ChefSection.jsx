@@ -28,7 +28,7 @@ const chefs = [
 export default function ChefSection() {
   return (
     <section className="bg-white px-4 py-14 sm:px-6 lg:px-8 scroll-mt-[100px]" id="chefs">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-6xl" data-aos="fade-up">
 
         {/* Heading */}
         <div className="mb-10 text-center">
@@ -45,7 +45,7 @@ export default function ChefSection() {
         </div>
 
         {/* Chef Cards */}
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4" data-aos="zoom-in">
           {chefs.map((chef) => (
             <div
               key={chef.name}

@@ -7,7 +7,7 @@ function CategoriesPage() {
     
   return (
     <div>
-      <div className='flex flex-col justify-center items-center text-center py-10'>
+      <div className='flex flex-col justify-center items-center text-center py-10' >
         <p className='text-[#e8281a] text-[20px]'>
             What we offer
         </p>
@@ -28,6 +28,7 @@ function CategoriesPage() {
 }}>
         {category.map((item, index) => (
           <div
+            
             key={item.id}
             className={`py-4 flex flex-col justify-center items-center rounded-2xl bg-white
               w-25 h-25 md:w-48 md:h-48 overflow-hidden cursor-pointer
@@ -46,11 +47,11 @@ function CategoriesPage() {
               />
             </div>
 
-            <h1 className="font-semibold mt-1 md:mt-3 text-[12px] md:text-base">
+            <h1 className="font-semibold mt-1 md:mt-3 text-[12px] md:text-base" >
               {item.name}
             </h1>
 
-            <p className="text-gray-400 text-[9px] md:text-sm md:mt-1">
+            <p className="text-gray-400 text-[9px] md:text-sm md:mt-1" >
               {item.items} Items
             </p>
           </div>

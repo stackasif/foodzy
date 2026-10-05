@@ -31,14 +31,14 @@ function Home() {
 
           <Marquee />
 
-          <div className="w-full max-w-[1280px] mx-auto">
+          <div className="w-full max-w-[1280px] mx-auto" data-aos="fade-up">
             <CategoriesPage />
           </div>
 
           <About />
 
           <div className="w-full max-w-[1280px] mx-auto gap-5 py-8">
-            <div className="flex flex-col justify-center items-center text-center py-10">
+            <div className="flex flex-col justify-center items-center text-center ">
               <Category2 />
             </div>
           </div>

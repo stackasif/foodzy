@@ -15,7 +15,7 @@ function FastFood() {
     <section className="w-full bg-[#f8f5f0]">
 
       {/* Main Content */}
-      <div className="max-w-[1280px] mx-auto px-5 py-10">
+      <div className="max-w-[1280px] mx-auto px-5 py-10" data-aos="fade-right">
 
         {/* Heading */}
         <div className="text-center mb-12">
@@ -34,7 +34,7 @@ function FastFood() {
         </div>
 
         {/* Image Gallery */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" data-aos="zoom-in">
 
           {images.map((image, index) => (
             <img

@@ -38,8 +38,10 @@ function CartSection() {
 
         {/* CardCart section  */}
         {item.length >0?<CardCart/>:
-        <div>
-          ADDitem
+        <div className='w-full h-screen flex justify-center items-center'  >
+          <h1 className='text-[12px]'>
+            Empty Cart
+          </h1>
         </div>
         }
         

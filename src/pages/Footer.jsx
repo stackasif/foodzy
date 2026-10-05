@@ -13,10 +13,10 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#181818] text-gray-400">
+    <footer className="bg-[#181818] text-gray-400" >
 
       {/* Main Footer */}
-      <div className="mx-auto max-w-6xl px-6 py-12">
+      <div className="mx-auto max-w-6xl px-6 py-12" data-aos="zoom-in">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
 
           {/* About */}
@@ -297,11 +297,11 @@ export default function Footer() {
       </div>
 
       {/* Bottom Footer */}
-      <div className="border-t border-[#292929]">
+      <div className="border-t border-[#292929]" >
         <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-4 text-xs md:flex-row md:items-center md:justify-between">
 
           {/* Copyright */}
-          <div>
+          <div >
             <p>
               © 2026{" "}
               <span className="font-semibold text-red-500">

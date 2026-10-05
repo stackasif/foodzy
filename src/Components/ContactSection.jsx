@@ -17,7 +17,7 @@ export default function ContactSection() {
       <div className="mx-auto max-w-5xl">
 
         {/* Heading */}
-        <div className="text-center">
+        <div className="text-center" data-aos="fade-up">
           <p className="font-serif text-sm italic text-red-500">
             Get In Touch
           </p>
@@ -39,7 +39,7 @@ export default function ContactSection() {
         <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-[348px_1fr]">
 
           {/* Left Info Card */}
-          <div className="rounded-2xl bg-[#1b1b1b] p-8 text-white">
+          <div className="rounded-2xl bg-[#1b1b1b] p-8 text-white" data-aos="fade-right">
 
             <h3 className="font-serif text-xl">
               Let's Talk
@@ -142,7 +142,7 @@ export default function ContactSection() {
           </div>
 
           {/* Form */}
-          <form className="rounded-2xl bg-white p-6 shadow-lg sm:p-7">
+          <form className="rounded-2xl bg-white p-6 shadow-lg sm:p-7" data-aos="fade-left">
 
             {/* Inputs */}
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
