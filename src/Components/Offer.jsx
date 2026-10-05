@@ -65,7 +65,7 @@ export default function Offer() {
         <div className="grid w-full items-center gap-12 lg:grid-cols-2 lg:gap-16">
           
           {/* LEFT CONTENT */}
-          <div className="order-2 lg:order-1" data-aos="fade-right">
+          <div className="order-2 lg:order-1" data-aos="fade-up">
             
             {/* Limited offer badge */}
             <div className="mb-7 inline-flex items-center gap-2 rounded-lg bg-[#ffac18] px-4 py-2 text-xs font-bold uppercase tracking-[2px] text-[#260000] sm:text-sm">
@@ -115,7 +115,7 @@ export default function Offer() {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="order-1 flex justify-center lg:order-2 lg:justify-end" data-aos="fade-left">
+          <div className="order-1 flex justify-center lg:order-2 lg:justify-end" data-aos="fade-up">
             <div className="relative w-full max-w-[540px]">
               
               {/* Price bubble */}

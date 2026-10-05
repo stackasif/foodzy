@@ -20,7 +20,7 @@ export default function OpenTime() {
       <div className="mx-auto max-w-[1280px]">
 
         {/* Heading */}
-        <div className="mb-10 text-center" data-aos="fade-right">
+        <div className="mb-10 text-center" data-aos="fade-up">
           <p className="font-serif text-sm italic text-emerald-200">
             Opening Hours
           </p>
@@ -34,7 +34,7 @@ export default function OpenTime() {
         </div>
 
         {/* Main Content */}
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-3" data-aos="fade-left">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-3" data-aos="fade-up">
 
           {/* Opening Hours */}
           <div className="rounded-2xl border border-white/20 bg-white/5 p-5">

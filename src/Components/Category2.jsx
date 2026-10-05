@@ -23,7 +23,7 @@ function Category2() {
         <div className="w-16 h-1 bg-[#ed261c] rounded-full mt-5 mb-5" />
       </div>
 
-      <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4" data-aos="fade-right">
+      <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4" data-aos="fade-up">
         {category.map((item) => (
           <div 
             key={item.id}

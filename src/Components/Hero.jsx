@@ -13,7 +13,7 @@ function Hero() {
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-10 lg:flex-row">
 
         {/* ================= LEFT SIDE ================= */}
-        <div className="w-full lg:w-1/2" data-aos="fade-right">
+        <div className="w-full lg:w-1/2" data-aos="fade-up">
 
           {/* Small badge */}
           <div className="mb-6 flex items-center gap-1.5 rounded-full bg-white px-4 py-3 shadow-md w-[320px] md:w-[360px] text-[14px] md:text-[16px]">
@@ -112,7 +112,7 @@ function Hero() {
 
 
         {/* ================= RIGHT SIDE ================= */}
-        <div className="relative flex w-full items-center justify-center lg:w-1/2" data-aos="fade-left">
+        <div className="relative flex w-full items-center justify-center lg:w-1/2" data-aos="fade-up">
 
           {/* Light circle behind burger */}
           <div className="absolute h-80 w-80 rounded-full bg-orange-100 sm:h-96 sm:w-96 lg:h-[450px] lg:w-[450px]">

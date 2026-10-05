@@ -15,7 +15,7 @@ function FastFood() {
     <section className="w-full bg-[#f8f5f0]">
 
       {/* Main Content */}
-      <div className=" max-w-[1280px] mx-auto px-5 py-10" data-aos="fade-right">
+      <div className=" max-w-[1280px] mx-auto px-5 py-10" data-aos="fade-up">
 
         {/* Heading */}
         <div className="text-center mb-12">

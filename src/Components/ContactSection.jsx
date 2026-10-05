@@ -39,7 +39,7 @@ export default function ContactSection() {
         <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-[348px_1fr]">
 
           {/* Left Info Card */}
-          <div className="rounded-2xl bg-[#1b1b1b] p-8 text-white" data-aos="fade-right">
+          <div className="rounded-2xl bg-[#1b1b1b] p-8 text-white" data-aos="fade-up">
 
             <h3 className="font-serif text-xl">
               Let's Talk
@@ -142,7 +142,7 @@ export default function ContactSection() {
           </div>
 
           {/* Form */}
-          <form className="rounded-2xl bg-white p-6 shadow-lg sm:p-7" data-aos="fade-left">
+          <form className="rounded-2xl bg-white p-6 shadow-lg sm:p-7" data-aos="fade-up">
 
             {/* Inputs */}
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">

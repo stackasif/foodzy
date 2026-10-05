@@ -21,7 +21,7 @@ function CategoriesPage() {
       </div>
 
 
-      <div className=" bg-[#fffaf4] flex flex-wrap items-center justify-center gap-3 md:gap-4 px-2 md:px-6 py-4 md:py-8" onClick={() => {
+      <div data-aos="fade-up" className=" bg-[#fffaf4] flex flex-wrap items-center justify-center gap-3 md:gap-4 px-2 md:px-6 py-4 md:py-8" onClick={() => {
   document.getElementById('menu').scrollIntoView({
     behavior: 'smooth'
   })
