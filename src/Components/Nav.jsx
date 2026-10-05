@@ -40,8 +40,8 @@ export default function Navbar() {
   return (
     <>
       {/* ================= HEADER ================= */}
-      <header data-aos="fade-down" className="sticky top-0 z-40 w-full border-b border-orange-100 bg-white/95 shadow-sm backdrop-blur-md" >
-        <nav
+      <header  className="sticky top-0 z-40 w-full border-b border-orange-100 bg-white/95 shadow-sm backdrop-blur-md" >
+        <nav data-aos="fade-down"
           className="
             mx-auto flex
             h-[80px] md:h-[100px]
