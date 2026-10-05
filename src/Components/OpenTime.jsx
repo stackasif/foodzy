@@ -34,10 +34,10 @@ export default function OpenTime() {
         </div>
 
         {/* Main Content */}
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-3" data-aos="fade-up">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-3" >
 
           {/* Opening Hours */}
-          <div className="rounded-2xl border border-white/20 bg-white/5 p-5">
+          <div className="rounded-2xl border border-white/20 bg-white/5 p-5" data-aos="zoom-in">
             {hours.map((item) => (
               <div
                 key={item.day}
@@ -69,7 +69,7 @@ export default function OpenTime() {
           </div>
 
           {/* Order Online */}
-          <div className="flex flex-col items-center justify-center rounded-2xl bg-red-500 px-5 py-6 text-center shadow-xl">
+          <div className="flex flex-col items-center justify-center rounded-2xl bg-red-500 px-5 py-6 text-center shadow-xl" data-aos="zoom-in">
             <Truck size={34} className="text-white" />
 
             <h3 className="mt-3 font-serif text-xl font-bold text-white">
@@ -86,7 +86,7 @@ export default function OpenTime() {
           </div>
 
           {/* Contact */}
-          <div className="rounded-2xl border border-white/20 bg-white/5 p-5">
+          <div className="rounded-2xl border border-white/20 bg-white/5 p-5" data-aos="zoom-in">
             <h3 className="mb-2 flex items-center gap-2 text-sm font-bold text-white">
               <MapPin size={15} className="text-orange-400" />
               Find Us
